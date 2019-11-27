@@ -23,3 +23,14 @@
 - 来源：kaggle
 - 竞赛："Fashion MNIST"
 - 描述：时尚图像数据集
+### 6. boston housing price
+- 波士顿房价数据
+- 可用于回归挖掘
+### 7. mnist_dataset
+- 手写数字数据集
+- 图像多分类
+- 加载方式：
+```
+from tensorflow.examples.tutorials.mnist import input_data  # 1.0版本tf
+mnist = input_data.read_data_sets('mnist_dataset/',one_hot=True) # 解压后的文件
+```
