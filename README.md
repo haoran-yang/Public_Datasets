@@ -34,3 +34,7 @@
 from tensorflow.examples.tutorials.mnist import input_data  # 1.0版本tf
 mnist = input_data.read_data_sets('mnist_dataset/',one_hot=True) # 解压后的文件
 ```
+### 8. cat-in-the-dat
+- 类别特征数据集
+- Kaggle "Categorical Feature Encoding Challenge"竞赛
+- 二分类
